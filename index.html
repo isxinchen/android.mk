@@ -1091,7 +1091,10 @@ installed when a given app is installed.</p></td>
 </tr>
 <tr>
 <td valign="top">LOCAL_SDK_VERSION</td>
-<td valign="top"></td>
+<td valign="top">
+    build sdk version, "current" or "system_current" could be set,default value is "system_current"
+    java @hide api should use system_current.
+</td>
 </tr>
 <tr>
 <td valign="top">LOCAL_SHARED_LIBRARIES</td>
